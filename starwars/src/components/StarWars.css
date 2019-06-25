@@ -1,12 +1,14 @@
 .card-container {
     width: 100%;
-    max-width: 850px;
+    max-width: 900px;
     margin: 0 auto;
-    border: 0.5rem solid rgb(226, 191, 147);
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     padding: 10px;
+    -webkit-box-shadow: 10px 10px 51px 16px rgb(226, 191, 147);
+    -moz-box-shadow: 10px 10px 51px 16px rgb(226, 191, 147);
+    box-shadow: 10px 10px 51px 16px rgb(226, 191, 147);
 }
 
 
@@ -18,8 +20,87 @@
 
  .attr .attr {
     font-size: 40px;
+    font-weight: bold;
 }
 
 .attr .char-name {
-    margin-right: 0.5rem;
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.attr h2 {
+    margin-right: 15px;
+    font-style: italic;
+    font-family: monospace;
+}
+
+.attr .char-height {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-mass {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-hair-color {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-skin-color {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-eye-color {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-birth-year {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
+}
+
+.attr .char-gender {
+    margin-right: 5px;
+    font-style: italic;
+    font-family: monospace;
+    font-size: 25px;
+    display: flex;  
+    align-items: center;
+    justify-content: space-around;
 }
